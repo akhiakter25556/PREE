@@ -1,0 +1,23 @@
+.home{
+color: brown;
+height: 2px;
+
+}
+.blog{
+background-color: aqua;
+border: 10px solid tomato;
+margin: 10px;
+border-radius: 10px;
+/* border-bottom: 10px; */
+/* margin: 10px 20px 100px;
+margin: 10px 20px 60px 100px; */
+/* padding: 8px; */
+/* padding-left: 10px 40px; */
+/* text-align: center;
+text-align: justify; */
+height: 500px;
+
+
+
+}
+

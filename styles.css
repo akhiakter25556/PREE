@@ -1,0 +1,50 @@
+.header{
+height: 300px;
+background-color: bisque;
+background-image: url('../pp.jpg')
+
+/* background-image: url(img1/coffe11.jpeg); */
+/* background-repeat: no-repeat ; */
+/* background-repeat: repeat-x; */
+/* background-repeat: repeat-y; */
+/* background-size: cover; */
+/* background-size: contain; */
+/* background-size: 200px; */
+
+
+
+
+}
+
+
+
+
+h3{
+font-size: 30px;
+text-decoration: overline;
+font-family: 'Courier New', Courier, monospace;
+}
+.blog{
+margin: 20px;
+border: 10px solid tomato;
+box-shadow: 10px 10px 20px;
+}
+.second{
+/* display: none;
+     */
+/* visibility: hidden; */
+
+}
+
+.incident{
+border: 3px solid rgb(255, 127, 174);
+margin: 20px;
+display:inline-block ;
+}
+.my{
+border: 2px solid salmon;
+height: 60px;
+display: inline-block;
+}
+
+bac
