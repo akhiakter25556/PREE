@@ -1,23 +1,201 @@
-.home{
-color: brown;
-height: 2px;
+
+
+
+.open-sans-normal {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* shared style */
+.secondery-bg{
+background-color: aliceblue;
+
+
 
 }
-.blog{
-background-color: aqua;
-border: 10px solid tomato;
-margin: 10px;
+.text-primary{
+color: #FD6E0A;
+
+
+
+}
+.dark-2{
+color: #474747;
+
+}
+.btn-prymeri{
+background-color: #FD6E0A;
+font-weight: blod;
+font-size: 20px;
+color: floralwhite;
+padding: 18px 35px;
+border-radius: 5px;
+}
+.section-tittel{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+}
+.section-description{
+font-size: 18px;
+color: #474747;
+
+}
+.text-center{
+text-align: center;
+
+}
+
+.header{
+    background-image: url(img1/developer.png), url(../img1/header_bg.png);
+    background-repeat: no-repeat;
+
+    background-position: top left, bottom right;
+}
+
+
+/* nav styes */
+nav{
+    display: flex;
+padding: 0px 200px;
+
+    justify-content: space-between;
+}
+.nav-tittle{
+font-weight: 800;
+font-size: 45PX;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+list-style: none;
+margin-right: 50px;
+
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+/* banner styles */
+.benner{
+display: flex;
+justify-content: space-between;
+margin: 0 35PX 0 200PX;
+}
+.bennar-content{
+max-width: 580PX;
+
+}
+
+.banner-greetings{
+font-size: 45px;
+font-weight: 600;
+
+}
+
+.bennar-tittel{
+font-weight: bold;
+font-size: 85px;
+}
+
+.banner-profil-pic{
+width: 580px;
+
+
+}
+/* main stylse */
+main{
+max-width: 1140px;
+margin: 0 auto;
+
+}
+main section{
+margin-top: 130px;
+margin-bottom: 130px;
+}
+
+/* about stylse */
+
+.about{
 border-radius: 10px;
-/* border-bottom: 10px; */
-/* margin: 10px 20px 100px;
-margin: 10px 20px 60px 100px; */
-/* padding: 8px; */
-/* padding-left: 10px 40px; */
-/* text-align: center;
-text-align: justify; */
-height: 500px;
-
-
+padding: 13px 150px;
+text-align: center;
+margin-top: 130PX;
+}
+.about-iteams{
+display: flex;
+justify-content: space-around;
+}
+/* skills section */
+.skills-container{
+display: flex;
+gap: 24px;
 
 }
+.skill-description{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
+}
+.resume-container{
+display: flex;
+gap: 24px;
+}
+.experince-sub-title{
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+
+
+.experince-decription, .experince-sub-title{
+    color: #757575;
+}
+
+
+.resume hr{
+margin: 30px 5px;
+   
+}
+.resume-downlode-cv{
+margin-top: 50px;
+
+}
+/* footer styls */
+footer{
+padding: 130px 230px;
+display: flex;
+gap: 100px;
+
+}
+.footer-column{
+width: 50%;
+
+}
+.name{
+    height: 64px;
+    border-radius: 5px;
+    background-color: beige;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+footer input [type="text"] ,footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: beige;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
