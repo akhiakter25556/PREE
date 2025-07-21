@@ -5,10 +5,382 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iEducate - Transfroming Online Education</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+.container a{
+
+gap: 30px;
+text-decoration: none;
+color: brown;
+
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+}
+nav a{
+text-decoration: none;
+color: brown;
+}
+.login-form{
+display: flex;
+flex-direction: column;
+}
+.login-form input{
+
+
+}
+.calander{
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+grid-template-rows: 30PX repeat(5,50PX);
+row-gap: 20px;
+column-gap: 10px;
+
+}
+.date, .daY {
+    background: rgb(63, 204, 235);
+border-radius: 5px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.5em;
+}
+.daY{
+    background-color: cadetblue;
+    font-size: 1em;
+}
+.food{
+    border: 1px solid rebeccapurple;
+}
+.container5{
+display: grid;
+grid-template-columns: repeat( 3, 1fr);
+gap: 20px;
+}
+.food{
+    border-radius: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+}
+.food img{
+
+    width: 100%;
+}
+@media screen and (max-width: 992px){
+    .container5{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.container6{
+display: grid;
+grid-template-columns: repeat( 3, 1fr);
+gap: 10px;
+}
+@media screen  and (max-width: 577px){
+      .container6{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px){
+     .container6{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.container-img{
+display: flex;
+
+}
+.container-imgs img
+{
+width: 100%;
+
+}
+@media screen and (max-width:576px){
+   .container-imgs{
+flex-direction: column-reverse;
+
+} 
+}
+
+.container{
+display: flex;
+gap: 20px;
+}
+.box{
+background: blueviolet;
+padding: 20px;
+border-radius: 20px;
+}
+@media screen and {
+    .container{
+flex-direction: column;
+}
+}
+
+    </style>
 </head>
 
 <body>
+<h2>Flexible Flex</h2>
+<div class="container">
+<div class="box">
+<h3>First Box</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsa 
+    eum quisquam quidem! Eius numquam quod eaque libero laudantium 
+    eligendi maiores
+     autem minus aut. Commodi possimus labore numquam impedit deserunt.</p>
+</div>
+<div class="box">
+<h3>First Box</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsa 
+    eum quisquam quidem! Eius numquam quod eaque libero laudantium 
+    eligendi maiores
+     autem minus aut. Commodi possimus labore numquam impedit deserunt.</p>
+</div>
 
+
+
+
+
+
+
+
+</div>
+
+
+
+
+    <h3>Responsive website</h3>
+<header>
+    <ol>
+        <li>viewport meta tag</li>
+        <li>CSS Relative Unit</li>
+        <li>body  max width and horizontal center align</li>
+        <li>viewport meta tag</li>
+        <li>viewport meta tag</li>
+        <li>viewport meta tag</li>
+    </ol>
+</header>
+<main>
+    <div class="container-imgs">
+<img src="img1/cofi4.jpeg" alt="">
+</div>
+<div>
+    <img src="img1/coffe3.jpeg" alt="">
+</div>
+</main>
+
+<div class="container-imgs">
+  
+    <div class="food">
+        <img src="img1/coffe7.jpeg" alt="">
+        <h3>food iteam -1</h3>
+        <p>price:/0100</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque vitae consequatur ipsam ducimus molestias hic quibusdam iste repellendus odit in?</p>
+        <button>Buy Now</button>
+    </div>
+ <div class="food">
+        <img src="img1/coffe7.jpeg" alt="">
+        <h3>food iteam -1</h3>
+        <p>price:/0100</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque vitae consequatur ipsam ducimus molestias hic quibusdam iste repellendus odit in?</p>
+        <button>Buy Now</button>
+    </div>
+ <div class="food">
+        <img src="img1/coffe7.jpeg" alt="">
+        <h3>food iteam -1</h3>
+        <p>price:/0100</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque vitae consequatur ipsam ducimus molestias hic quibusdam iste repellendus odit in?</p>
+        <button>Buy Now</button>
+    </div>
+ <div class="food">
+        <img src="img1/coffe7.jpeg" alt="">
+        <h3>food iteam -1</h3>
+        <p>price:/0100</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque vitae consequatur ipsam ducimus molestias hic quibusdam iste repellendus odit in?</p>
+        <button>Buy Now</button>
+    </div>
+ <div class="food">
+        <img src="img1/coffe7.jpeg" alt="">
+        <h3>food iteam -1</h3>
+        <p>price:/0100</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque vitae consequatur ipsam ducimus molestias hic quibusdam iste repellendus odit in?</p>
+        <button>Buy Now</button>
+    </div>
+
+ <div class="food">
+        <img src="img1/coffe7.jpeg" alt="">
+        <h3>food iteam -1</h3>
+        <p>price:/0100</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque vitae consequatur ipsam ducimus molestias hic quibusdam iste repellendus odit in?</p>
+        <button>Buy Now</button>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="container5">
+    <div class="food">
+        <img src="img1/coffe5.jpeg" alt="">
+        <h3>Food iteam - 1</h3>
+        <p>price: $100</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Tempore pariatur repudiandae enim dolorum aperiam? Totam quas 
+            commodi reiciendis nulla mollitia.</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam - 2</h3>
+        <p>price: $200</p>
+        <p>Id quo officiis facilis animi sed delectus rerum, 
+            amet mollitia expedita cum ea voluptatibus eaque consectetur
+             corporis dolorum ratione nisi?</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam - 3</h3>
+        <p>price: $300</p>
+        <p>Facilis debitis repudiandae neque sit velit recusandae 
+            error! Non ad ullam omnis, praesentium iusto harum 
+            doloribus provident illo facere dolores?</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam - 4</h3>
+        <p>price: $400</p>
+        <p>Rem molestias, porro quae in et expedita nulla,
+             corrupti eligendi nobis iure vitae dignissimos
+              magnam, quod quas modi unde consequuntur.</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam - 5</h3>
+        <p>price: $500</p>
+        <p>Iure tempora illo quaerat quos omnis totam tenetur
+             tempore qui, excepturi consequatur assumenda
+             temporibus aperiam vel aspernatur, dolor, ex molestiae!</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam - 6</h3>
+        <p>price: $600</p>
+        <p>Reiciendis sint soluta id at suscipit, esse optio dolore! Harum cupiditate placeat, ratione cum officiis eos sit fugiat inventore ducimus?</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam-7</h3>
+        <p>price: $700</p>
+        <p>Architecto vero veniam autem laborum hic maiores voluptatibus dolore sed velit, eos corrupti aut enim numquam culpa minima? Odit, dicta?</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam - 8</h3>
+        <p>price: $800</p>
+        <p>Distinctio sed pariatur aut molestiae earum nihil a ipsum eligendi tempora numquam nostrum atque harum, aliquid quo voluptatum. Praesentium, harum?</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam - 9</h3>
+        <p>price: $900</p>
+        <p>Libero vel, quasi consequuntur tempore, tenetur possimus, quo laudantium odit cum neque assumenda! Minima aliquam laboriosam aspernatur commodi ex provident?</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam - 10</h3>
+        <p>price: $1000</p>
+        <p>Iste minima harum, modi non, iure odio earum saepe culpa dolor totam magni at beatae sed minus hic. Culpa, repudiandae.</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam - 11</h3>
+        <p>price: $1100</p>
+        <p>Assumenda officia, laudantium voluptate soluta cumque aut cum eligendi architecto aspernatur delectus debitis omnis natus? Quis voluptates ullam alias facere.</p>
+    </div>
+    <div class="food">
+        <img src="img1/coffe11.jpeg" alt="">
+        <h3>Food iteam - 12</h3>
+        <p>price: $1200</p>
+        <p>Vel deserunt nobis illo eum sapiente ullam explicabo soluta expedita autem eius facilis optio, quod assumenda voluptatibus temporibus sunt neque!</p>
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<nav class="">
+    <a href="">home </a>
+    <a href="">profil</a>
+    <a href="">blog</a>
+    <a href="">login</a>
+    <div>
+        <a href="">sumit</a>
+    </div>
+</nav>
+<form action="" class="login-form">
+    <h1>plese login</h1>
+<input type="email" placeholder="your email">
+<input type="password" placeholder="your password">
+<input type="submit" placeholder="" value="login">
+
+</form><br><br><br><br><br>
+<div class="calander">
+    <div class="daY">S</div>
+    <div class="daY">M</div>
+    <div class="daY">T</div>
+    <div class="daY">W</div>
+    <div class="daY">T</div>
+    <div class="daY">F</div>
+    <div class="daY">S</div>
+<div class="date">32</div>
+<div class="date">33</div>
+<div class="date">1</div>
+<div class="date">2</div>
+<div class="date">3</div>
+<div class="date">4</div>
+<div class="date">5</div>
+<div class="date">6</div>
+<div class="date">7</div>
+<div class="date">8</div>
+<div class="date">9</div>
+<div class="date">10</div>
+<div class="date">11</div>
+<div class="date">12</div>
+<div class="date">13</div>
+<div class="date">14</div>
+<div class="date">15</div>
+<div class="date">16</div>
+<div class="date">17</div>
+<div class="date">18</div>
+<div class="date">19</div>
+<div class="date">20</div>
+<div class="date">21</div>
+<div class="date">22</div>
+<div class="date">23</div>
+<div class="date">24</div>
+<div class="date">25</div>
+<div class="date">26</div>
+<div class="date">27</div>
+<div class="date">28</div>
+<div class="date">29</div>
+<div class="date">30</div>
+<div class="date">1</div>
+<div class="date">2</div>
+</div>
+
+
+<!-- 
     <nav class="navbar">
         <ul class="nav-list">
             <div class="logo"><img src="pp3.jpg" alt=""></div>
@@ -121,9 +493,65 @@
 
 <video controls src="3214527-uhd_3840_2160_25fps.mp4"></video>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0O-7zcjYRM4?si=vxE6CMptyMQ-nrbv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-allowfullscreen></iframe>
+allowfullscreen></iframe> -->
+<!-- 
+
+<nav>
+<div>
+<a href="">Home</a>
+<a href="">Blog</a>
+<a href="">profile</a>
+<a href="">Login</a>
+
+</div>
+<a href="">About</a>
 
 
 
+
+
+</nav>
+<section class="Login-form-container">
+<form class="Login-form" action="">
+<h3>Please Login</h3>
+<input type="email" placeholder="Your Email" required>
+<input type="password" placeholder="Your Password" required>
+<input type="submit" value="Login">
+
+
+</section>
+</form>
+<header>
+    <h1>My Picture Collagetion</h1>
+
+</header>
+<main>
+    <div class="row">
+
+
+<img src="img1/coffe8 - Copy (2).jpeg" alt="">
+<img src="img1/coffe1.jpeg" alt="">
+<img src="img1/coffe6.jpeg" alt="">
+<img src="img1/coffe11.jpeg" alt="">
+<div class="row">
+<div> <img src="img1/cofi15.jpeg" alt=""></div>
+<div> <img src="img1/cofi13.jpeg" alt=""></div>
+<div> <img src="img1/coffe9 - Copy (2).jpg" alt=""></div>
+</div>
+<div class="vertical">
+    <img src="img1/cofi13.jpeg" alt="">
+    <img src="img1/cofi16.jpeg" alt="">
+</div>
+    </div>
+<div class="row">
+<div> <img src="img1/cofi15.jpeg" alt=""></div>
+<div> <img src="img1/cofi13.jpeg" alt=""></div>
+<div> <img src="img1/coffe9 - Copy (2).jpg" alt=""></div>
+</div>
+
+</main>
+
+
+</div>
 </body>
 </html>
